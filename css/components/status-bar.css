@@ -24,3 +24,9 @@
 .status-bar__column:first-child span {
   margin-right: 5px;
 }
+
+.status-bar__cog {
+  position: absolute;
+  bottom: 15px;
+  right: -5px;
+}
