@@ -1,0 +1,37 @@
+#no-mobile {
+  position: absolute;
+  z-index: 98;
+  height: 100vh;
+  width: 100vw;
+  background-color: var(--yellow);
+  display: flex;
+  top: 0px;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+}
+
+@media screen and (max-width: 645px) {
+  #no-mobile {
+    display: none;
+  }
+}
+
+#no-mobile--no-landscape {
+  position: absolute;
+  z-index: 99;
+  height: 100vh;
+  width: 100vw;
+  background-color: var(--yellow);
+  display: none;
+  top: 0px;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+}
+
+@media screen and (orientation: landscape) {
+  #no-mobile--no-landscape {
+    display: flex;
+  }
+}

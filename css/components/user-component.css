@@ -1,6 +1,6 @@
 .user-component {
   justify-content: space-between;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 .user-component,
 .user-component__column:first-child {
@@ -55,4 +55,50 @@
 .user-component__subtitle i {
   color: tomato;
   opacity: 0.8;
+}
+
+.user-component__column__multiple {
+  width: 70px;
+  height: 70px;
+  border-radius: 30px;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-component__column__multiple__firstcolumn,
+.user-component__column__multiple__secondcolumn {
+  display: flex;
+  align-items: center;
+}
+
+.user-component__column__multiple__firstcolumn div,
+.user-component__column__multiple__secondcolumn div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: gray;
+  color: white;
+  width: 29px;
+  height: 29px;
+  border-radius: 10px;
+  margin: 1px;
+}
+
+.user-component__column__multiple__firstcolumn div:first-child {
+  background-color: teal;
+}
+
+.user-component__column__multiple__firstcolumn div:last-child {
+  background-color: tomato;
+}
+
+.user-component__column__multiple__secondcolumn img {
+  margin-right: 0;
+  margin-left: 1px;
+  width: 29px;
+  height: 29px;
+  border-radius: 10px;
 }
